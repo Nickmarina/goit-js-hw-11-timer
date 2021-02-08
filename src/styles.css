@@ -1,8 +1,23 @@
-/* .timer {
+body {
+  background-color: black;
+}
+.timer {
   display: flex;
   justify-content: center;
+  align-items: center;
+  color: white;
 }
 
-.field {
-  margin-right: 20px;
-} */
+.field.field:not(:last-child) {
+  margin-right: 30px;
+}
+
+.value {
+  font-size: 50px;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.label {
+  font-size: 30px;
+}
